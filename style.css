@@ -18,8 +18,7 @@
     width: 370px;
     height: 192px;
     float: right;
-    
-  
+
 
 }
 body{
@@ -37,24 +36,31 @@ body{
     width: 800px;
     background-color: white;
     border-radius: 10pt;
-    padding: 34px 24px 10px 24x;
+    padding: 34px 24px 10px 24px;
     transform: translatex(-50%);
     margin-left: 50%;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+   
+  
+
 
 }
 
-#informativo img
-{
-  margin-top: 25px;
-  width: 50%;
-}
 
-.tituloInformativo{
+
+.midiasArtigo {
+    width: 700px;
+    height: 450px;
+    transform: translatex(-50%);
+    margin-left: 50%;
+}
+#tituloInformativo{
+    
     font-size: 30px;
     font-family: 'Raleway';
 }
-.entrelinhasInformativo{
+#entrelinhasInformativo{
     font-size: 24px;
     font-family: 'Raleway';
 }
